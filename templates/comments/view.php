@@ -11,7 +11,7 @@
        <?php if ($comment->getArticleId() == $matches[1]): ?>
         <p>
             Комментарий: <?= $comment->getText() ?>
-            <form action="/framework/www/articles/comments/<?= $comment->getId() ?>/edit" method="post">
+            <form action="/Php-framework/www/articles/comments/<?= $comment->getId() ?>/edit" method="post">
             <label><input type="text" name="text"></label>
 
             <br><br>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Мой блог</title>
-    <link rel="stylesheet" href="/framework/templates/css/style.css">
+    <link rel="stylesheet" href="/Php-framework/templates/css/style.css">
 </head>
 <body>
 <table class="layout">

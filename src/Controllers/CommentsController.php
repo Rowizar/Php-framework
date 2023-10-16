@@ -43,7 +43,7 @@ class CommentsController
 
         $comment->save();
 
-        header("Location: http://localhost/framework/www/articles/comments/{$comment->getArticleId()}");
+        header("Location: http://localhost/Php-framework/www/articles/comments/{$comment->getArticleId()}");
         die();
     }
 
@@ -64,7 +64,7 @@ class CommentsController
 
         $comment->save();
 
-        header("Location: http://localhost/framework/www/articles/comments/{$matches[1]}");
+        header("Location: http://localhost/Php-framework/www/articles/comments/{$matches[1]}");
 
         die();
     }
