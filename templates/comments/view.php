@@ -4,7 +4,7 @@
     <p>Автор: <?= $article->getAuthor()->getNickname() ?></p>
     <?php
         $pattern = '~articles/comments/(\d+)~';
-        $comment->getId()
+        
         preg_match($pattern, $_GET['route'], $matches);
     ?>
     <?php foreach ($comments as $comment): ?>
@@ -21,6 +21,6 @@
         </p>
   
         <?php endif; ?>
-        <?php $i++ ?>
+        
     <?php endforeach; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
